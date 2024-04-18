@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A5192B2BD16FC800BA29D0 /* IntroScreenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5192A2BD16FC800BA29D0 /* IntroScreenSwiftUIApp.swift */; };
-		08A5192D2BD16FC800BA29D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5192C2BD16FC800BA29D0 /* ContentView.swift */; };
+		087B65772BD17CDD0046FBC3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B65762BD17CDD0046FBC3 /* Model.swift */; };
+		087B657A2BD180180046FBC3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B65792BD180180046FBC3 /* ColorExtension.swift */; };
 		08A5192F2BD16FCA00BA29D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A5192E2BD16FCA00BA29D0 /* Assets.xcassets */; };
 		08A519322BD16FCA00BA29D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A519312BD16FCA00BA29D0 /* Preview Assets.xcassets */; };
+		08A5193C2BD174F600BA29D0 /* interaction.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A519392BD174F600BA29D0 /* interaction.json */; };
+		08A5193D2BD174F600BA29D0 /* delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A5193A2BD174F600BA29D0 /* delivery.json */; };
+		08A5193E2BD174F600BA29D0 /* order.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A5193B2BD174F600BA29D0 /* order.json */; };
+		08A519442BD175B200BA29D0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A519432BD175B200BA29D0 /* CardView.swift */; };
+		08A519462BD175F400BA29D0 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A519452BD175F400BA29D0 /* LottieView.swift */; };
+		08A519482BD1764700BA29D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A519472BD1764700BA29D0 /* ContentView.swift */; };
+		08A5194A2BD1769500BA29D0 /* IntroScreenSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A519492BD1769500BA29D0 /* IntroScreenSwiftUI.swift */; };
+		28436BBED7C35558724EBD16 /* Pods_IntroScreenSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CE9D7DF88E910159D5498 /* Pods_IntroScreenSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		024E0FA69D9A2A6401C45B6C /* Pods-IntroScreenSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroScreenSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-IntroScreenSwiftUI/Pods-IntroScreenSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		078CE9D7DF88E910159D5498 /* Pods_IntroScreenSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntroScreenSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		087B65762BD17CDD0046FBC3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		087B65792BD180180046FBC3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		08A519272BD16FC800BA29D0 /* IntroScreenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroScreenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A5192A2BD16FC800BA29D0 /* IntroScreenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenSwiftUIApp.swift; sourceTree = "<group>"; };
-		08A5192C2BD16FC800BA29D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08A5192E2BD16FCA00BA29D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A519312BD16FCA00BA29D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08A519392BD174F600BA29D0 /* interaction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = interaction.json; sourceTree = "<group>"; };
+		08A5193A2BD174F600BA29D0 /* delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery.json; sourceTree = "<group>"; };
+		08A5193B2BD174F600BA29D0 /* order.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = order.json; sourceTree = "<group>"; };
+		08A519432BD175B200BA29D0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		08A519452BD175F400BA29D0 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		08A519472BD1764700BA29D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08A519492BD1769500BA29D0 /* IntroScreenSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenSwiftUI.swift; sourceTree = "<group>"; };
+		AC62D0EB2C4FD8DAEF9CB8D1 /* Pods-IntroScreenSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroScreenSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-IntroScreenSwiftUI/Pods-IntroScreenSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28436BBED7C35558724EBD16 /* Pods_IntroScreenSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		087B65782BD180010046FBC3 /* Color Extension */ = {
+			isa = PBXGroup;
+			children = (
+				087B65792BD180180046FBC3 /* ColorExtension.swift */,
+			);
+			path = "Color Extension";
+			sourceTree = "<group>";
+		};
 		08A5191E2BD16FC800BA29D0 = {
 			isa = PBXGroup;
 			children = (
 				08A519292BD16FC800BA29D0 /* IntroScreenSwiftUI */,
 				08A519282BD16FC800BA29D0 /* Products */,
+				287E852A1A503F7351763342 /* Pods */,
+				263C2E8A7F39D04521B4769E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +80,11 @@
 		08A519292BD16FC800BA29D0 /* IntroScreenSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				08A5192A2BD16FC800BA29D0 /* IntroScreenSwiftUIApp.swift */,
-				08A5192C2BD16FC800BA29D0 /* ContentView.swift */,
+				087B65782BD180010046FBC3 /* Color Extension */,
+				08A519402BD1751D00BA29D0 /* View */,
+				08A5193F2BD1751600BA29D0 /* Model */,
+				08A519382BD1749600BA29D0 /* Lottie */,
+				08A519492BD1769500BA29D0 /* IntroScreenSwiftUI.swift */,
 				08A5192E2BD16FCA00BA29D0 /* Assets.xcassets */,
 				08A519302BD16FCA00BA29D0 /* Preview Content */,
 			);
@@ -67,6 +99,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		08A519382BD1749600BA29D0 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				08A5193A2BD174F600BA29D0 /* delivery.json */,
+				08A519392BD174F600BA29D0 /* interaction.json */,
+				08A5193B2BD174F600BA29D0 /* order.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		08A5193F2BD1751600BA29D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				087B65762BD17CDD0046FBC3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08A519402BD1751D00BA29D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08A519432BD175B200BA29D0 /* CardView.swift */,
+				08A519452BD175F400BA29D0 /* LottieView.swift */,
+				08A519472BD1764700BA29D0 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		263C2E8A7F39D04521B4769E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078CE9D7DF88E910159D5498 /* Pods_IntroScreenSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		287E852A1A503F7351763342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				024E0FA69D9A2A6401C45B6C /* Pods-IntroScreenSwiftUI.debug.xcconfig */,
+				AC62D0EB2C4FD8DAEF9CB8D1 /* Pods-IntroScreenSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08A519352BD16FCA00BA29D0 /* Build configuration list for PBXNativeTarget "IntroScreenSwiftUI" */;
 			buildPhases = (
+				68711F8FCAE85DE083A8FFDD /* [CP] Check Pods Manifest.lock */,
 				08A519232BD16FC800BA29D0 /* Sources */,
 				08A519242BD16FC800BA29D0 /* Frameworks */,
 				08A519252BD16FC800BA29D0 /* Resources */,
+				E07A8D80B58E6C0796A9216B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +205,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				08A519322BD16FCA00BA29D0 /* Preview Assets.xcassets in Resources */,
+				08A5193D2BD174F600BA29D0 /* delivery.json in Resources */,
 				08A5192F2BD16FCA00BA29D0 /* Assets.xcassets in Resources */,
+				08A5193E2BD174F600BA29D0 /* order.json in Resources */,
+				08A5193C2BD174F600BA29D0 /* interaction.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68711F8FCAE85DE083A8FFDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntroScreenSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07A8D80B58E6C0796A9216B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntroScreenSwiftUI/Pods-IntroScreenSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntroScreenSwiftUI/Pods-IntroScreenSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntroScreenSwiftUI/Pods-IntroScreenSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08A519232BD16FC800BA29D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A5192D2BD16FC800BA29D0 /* ContentView.swift in Sources */,
-				08A5192B2BD16FC800BA29D0 /* IntroScreenSwiftUIApp.swift in Sources */,
+				087B65772BD17CDD0046FBC3 /* Model.swift in Sources */,
+				08A519482BD1764700BA29D0 /* ContentView.swift in Sources */,
+				08A5194A2BD1769500BA29D0 /* IntroScreenSwiftUI.swift in Sources */,
+				087B657A2BD180180046FBC3 /* ColorExtension.swift in Sources */,
+				08A519462BD175F400BA29D0 /* LottieView.swift in Sources */,
+				08A519442BD175B200BA29D0 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,59 +394,81 @@
 		};
 		08A519362BD16FCA00BA29D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024E0FA69D9A2A6401C45B6C /* Pods-IntroScreenSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IntroScreenSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 84C72X7M75;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 33DHXPFC67;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbs.sahibandhuDevelopment.IntroScreenSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbs.sahibandhuDevelopment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DevelopmentSahiBandhuCustomer;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		08A519372BD16FCA00BA29D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC62D0EB2C4FD8DAEF9CB8D1 /* Pods-IntroScreenSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IntroScreenSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 84C72X7M75;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 33DHXPFC67;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbs.sahibandhuDevelopment.IntroScreenSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbs.sahibandhuDevelopment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DevelopmentSahiBandhuCustomer;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
